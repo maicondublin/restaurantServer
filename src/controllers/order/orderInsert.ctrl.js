@@ -17,7 +17,7 @@ module.exports.orderInsertCtrl = async (order) => {
             newItem.MENU_ITEM_ID = item.ID
             await orderItemInsert(newItem)
         }
-        return {message:'Pedido foi encaminhado para produção!'}    
+        return {message:'Order has been delivered to the Chef!'}    
     } catch (error) {
         throw new Error(error)
     }

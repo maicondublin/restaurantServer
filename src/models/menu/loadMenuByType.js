@@ -1,7 +1,8 @@
 'use strict'
 
 const getConnection = require("../../../db")
-// Nesta tabela são cadastraddos os itens de menu, o tipo(TYPE) difere em qual aba do  menu vai aparecer o item
+//screen are registered the items of menu, o tipo(TYPE)
+// its different from the screen whereas the items appear
 // Exemplo: 'FOOD', DRINK, SNACK
 const sql = `
 SELECT * 

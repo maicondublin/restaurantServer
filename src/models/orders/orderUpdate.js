@@ -20,7 +20,7 @@ module.exports.orderUpdate = async (order) => {
     try {
         let conn = await getConnection()
         await conn.query(sql, binds)
-        return {message:'Pedido alterado com sucesso!'}
+        return {message:'Order has been changed successfully!'}
     } catch (error) {
         throw new Error(error)
     }
